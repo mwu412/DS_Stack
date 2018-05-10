@@ -16,7 +16,7 @@ public:
 	bool Empty() {
 		return top == -1;
 	}
-	T&¡@Top() {
+	T&ã€€Top() {
 		if(!Empty()) return stack[top];
 	}
 	void Push(const T& push) {
